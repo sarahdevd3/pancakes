@@ -1,0 +1,91 @@
+h1, h2, h3, h4, h5, p, a, ul, ol{
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    font-size: 100%;
+    background-color: rgb(128, 121, 121);
+    box-sizing: border-box;
+
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body{
+      margin:0;
+  }
+
+  p{
+    box-sizing:border-box;
+      text-align:center;
+      text-shadow: 0 1px 1px rgb(0, 0, 0);
+      color:rgb(255, 255, 255);
+      background-color: rgba(66, 62, 62, 0.685);
+      height:80vh;
+      width:50%;
+      float:right;
+
+
+  }
+
+  img{
+
+    display:flex;
+    text-shadow: 0 1px 1px rgb(0, 0, 0);
+    height:80vh;
+    width:50%;
+    float:left;
+     
+    }
+
+h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(59, 57, 54); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+      background-color:rgba(214, 202, 202, 0.801);
+      padding:10px;
+  }
+
+  footer{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(59, 57, 54); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+      background-color:rgba(214, 202, 202, 0.801);
+      padding:10px;
+      text-align:center;
+      margin:0;
+
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(68, 67, 64); }
+  }
+  h1{
+    text-align: center;
+    color: #D1B57C;
+    font-variant: small-caps;
+    font-size: 28px;
+    text-shadow: 0 1px 1px rgb(0, 0, 0);
+    animation: fadeInDown .4s ease-in-out;
+  }
+  
